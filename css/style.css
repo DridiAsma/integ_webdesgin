@@ -13,10 +13,12 @@ h4 {
     font-family: 'Josefin Sans', sana-serif;
 }
 
-h2, h3{
+h2,
+h3 {
     color: #FFBF46;
 }
-h2{
+
+h2 {
     font-size: 2.2em;
     text-align: center;
     margin-top: 0;
@@ -48,7 +50,8 @@ header {
     align-items: center;
 }
 
-header ul, footer ul {
+header ul,
+footer ul {
     list-style: none;
     padding-left: 0;
 }
@@ -80,7 +83,7 @@ h1 {
 .bienvenue {
     padding: 80px 20px;
     text-align: center;
-    background-image: linear-gradient(rgba(0,0,0,0.5),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)), url("../img/beach.jpg");
     background-position: center center;
     background-size: cover;
@@ -113,26 +116,26 @@ h1 {
 }
 
 /* Section articles */
-.articles{
+.articles {
     background-color: #02BFC6;
     text-align: center;
     padding: 40px 20px 60px;
 }
 
-article{
+article {
     width: 360px;
 }
 
-article img{
+article img {
     border-radius: 20px 0;
 }
 
-article p{
+article p {
     text-align: justify;
     color: white;
 }
 
-.btn-small{
+.btn-small {
     background-color: #FFBF46;
     color: #084c61;
     padding: 8px 16px;
@@ -143,7 +146,7 @@ article p{
 
 
 /* Section agence */
-.agence{
+.agence {
     padding: 40px 20px 60px 20px;
 }
 
@@ -152,12 +155,12 @@ article p{
 
 }
 
-.agence img{
+.agence img {
     /* background color font img */
     box-shadow: 30px 30px 0px #FFBF46;
 }
 
-.agence p{
+.agence p {
     color: #808080;
     text-align: justify;
     padding: 0 30px;
@@ -167,53 +170,55 @@ article p{
 /* Section contact */
 
 
-.contact{
-background-image: url("../img/background-contact.png");
-padding: 20px;
-background-repeat: no-repeat;
-background-size: cover;
+.contact {
+    background-image: url("../img/background-contact.png");
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
-form{
+form {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 10px 30px;
 }
 
-input{
+input {
     width: 45%;
     height: 30px;
     border: 1px solid #808080;
-    margin-bottom: 20px; /* Espace between input*/
+    margin-bottom: 20px;
+    /* Espace between input*/
     border-radius: 5px;
 }
 
-textarea{
+textarea {
     width: 100%;
     border: 1px solid #808080;
     border-radius: 5px;
     padding-left: 10px;
 }
 
-form p{
+form p {
     text-align: center;
     width: 100%;
     margin-top: 40px;
 }
 
-button{
+button {
     cursor: pointer;
 }
 
-input[placeholder], textarea[placeholder]{
+input[placeholder],
+textarea[placeholder] {
     font-family: 'Lato', sans-serif;
 }
 
 
 /* Paied Footer */
-footer{
+footer {
     background-color: #084c61;
     padding: 10px;
 }
@@ -222,26 +227,28 @@ footer{
     width: 30%;
     text-align: center;
 }
-a{
+
+a {
     color: #02BFC6;
     text-decoration: none;
 }
 
-footer img{
+footer img {
     padding-top: 20px;
 }
 
-.social{
+.social {
     justify-content: space-evenly;
 }
 
-i{
+i {
     font-size: 2em;
 }
 
-.copyright{
+.copyright {
     color: white;
     text-align: center;
-    border-top: 1px solid #02BFC6; /*lien top en footer*/
+    border-top: 1px solid #02BFC6;
+    /*lien top en footer*/
     padding-top: 10px;
 }
