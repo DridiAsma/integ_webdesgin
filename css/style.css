@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Josefin Sans', sana-serif;
+}
+
+h2, h3{
+    color: #FFBF46;
+}
+h2{
+    font-size: 2.2em;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* En téte  */
+
+header {
+    background-color: #02BFC6;
+    height: 110px;
+}
+
+.container {
+    /* max-width: 1140px; */
+    max-width: 1124px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.dflex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header ul, footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Espace between title */
+header li {
+    margin-left: 30px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+header a {
+    color: white;
+}
+
+/* Section Bienvenue  */
+
+h1 {
+    color: #02BFC6;
+    font-weight: 400;
+
+}
+
+/* class section */
+.bienvenue {
+    padding: 80px 20px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),
+            rgba(0, 0, 0, 0.5)), url("../img/beach.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.slogan {
+    color: #FFBF46;
+    font-size: 5em;
+    font-weight: 400;
+}
+
+.intro {
+    max-width: 700px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.btn {
+    background-color: #02BFC6;
+    margin-top: 50px;
+    padding: 10px 30px;
+    font-size: 1.5em;
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Section articles */
+.articles{
+    background-color: #02BFC6;
+    text-align: center;
+    padding: 40px 20px 60px;
+}
+
+article{
+    width: 360px;
+}
+
+article img{
+    border-radius: 20px 0;
+}
+
+article p{
+    text-align: justify;
+    color: white;
+}
+
+.btn-small{
+    background-color: #FFBF46;
+    color: #084c61;
+    padding: 8px 16px;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border: none;
+}
+
+
+/* Section agence */
+.agence{
+    padding: 40px 20px 60px 20px;
+}
+
+.col {
+    width: 50%;
+
+}
+
+.agence img{
+    /* background color font img */
+    box-shadow: 30px 30px 0px #FFBF46;
+}
+
+.agence p{
+    color: #808080;
+    text-align: justify;
+    padding: 0 30px;
+}
+
+
+/* Section contact */
+
+
+.contact{
+background-image: url("../img/background-contact.png");
+padding: 20px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+input{
+    width: 45%;
+    height: 30px;
+    border: 1px solid #808080;
+    margin-bottom: 20px; /* Espace between input*/
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #808080;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+form p{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+button{
+    cursor: pointer;
+}
+
+input[placeholder], textarea[placeholder]{
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* Paied Footer */
+footer{
+    background-color: #084c61;
+    padding: 10px;
+}
+
+.col-30 {
+    width: 30%;
+    text-align: center;
+}
+a{
+    color: #02BFC6;
+    text-decoration: none;
+}
+
+footer img{
+    padding-top: 20px;
+}
+
+.social{
+    justify-content: space-evenly;
+}
+
+i{
+    font-size: 2em;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+    border-top: 1px solid #02BFC6; /*lien top en footer*/
+    padding-top: 10px;
+}
